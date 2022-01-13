@@ -8,17 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    let unitSelection = ["seconds","minutes","hours","days"]
+    @State private var originSelectedItem = "seconds"
+    @State private var selectedItem = "seconds"
+    @State private var amount = 0
     var body: some View {
         NavigationView{
         Form{
-        Section {
-            Text("Hello, world!")
-            Text("Hello, world!")
-            Text("Hello, world!")
-        }
-        Section{
-            Text("OTHER")
-        }
+            Picker("Original Unit", selection: $originSelectedItem){
+                ForEach(unitSelection, id: \.self){
+                    Text($0)
+                }
+            }
+            TextField("Amount",value: $amount, format: .number)
+            Picker("Unit to be converted", selection:$selectedItem){
+                ForEach(unitSelection, id: \.self){
+                    Text($0)
+                }
+            }
         }
         .navigationTitle("TEST")
         .navigationBarTitleDisplayMode(.inline)
