@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct FirstAppApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+    }
+}
+struct Previews_FirstAppApp_Previews: PreviewProvider{
+    static var previews: some View{
+        ContentView()
     }
 }

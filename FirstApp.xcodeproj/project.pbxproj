@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		3F0A7BA5278DDAFB0021A02C /* FirstAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A7BA4278DDAFB0021A02C /* FirstAppApp.swift */; };
 		3F0A7BA7278DDAFB0021A02C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A7BA6278DDAFB0021A02C /* ContentView.swift */; };
-		3F0A7BA9278DDAFE0021A02C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0A7BA8278DDAFE0021A02C /* Assets.xcassets */; };
 		3F0A7BAC278DDAFE0021A02C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0A7BAB278DDAFE0021A02C /* Preview Assets.xcassets */; };
 		3F0A7BB6278DDAFE0021A02C /* FirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A7BB5278DDAFE0021A02C /* FirstAppTests.swift */; };
 		3F0A7BC0278DDAFE0021A02C /* FirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A7BBF278DDAFE0021A02C /* FirstAppUITests.swift */; };
 		3F0A7BC2278DDAFE0021A02C /* FirstAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A7BC1278DDAFE0021A02C /* FirstAppUITestsLaunchTests.swift */; };
+		3F91CA0E2793465800EC7BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F91CA0D2793465800EC7BD1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +37,13 @@
 		3F0A7BA1278DDAFB0021A02C /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0A7BA4278DDAFB0021A02C /* FirstAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppApp.swift; sourceTree = "<group>"; };
 		3F0A7BA6278DDAFB0021A02C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3F0A7BA8278DDAFE0021A02C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F0A7BAB278DDAFE0021A02C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F0A7BB1278DDAFE0021A02C /* FirstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0A7BB5278DDAFE0021A02C /* FirstAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppTests.swift; sourceTree = "<group>"; };
 		3F0A7BBB278DDAFE0021A02C /* FirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0A7BBF278DDAFE0021A02C /* FirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITests.swift; sourceTree = "<group>"; };
 		3F0A7BC1278DDAFE0021A02C /* FirstAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F91CA0D2793465800EC7BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../HackingWithSwift/SwiftUI/project2/GuessTheFlag/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 			children = (
 				3F0A7BA4278DDAFB0021A02C /* FirstAppApp.swift */,
 				3F0A7BA6278DDAFB0021A02C /* ContentView.swift */,
-				3F0A7BA8278DDAFE0021A02C /* Assets.xcassets */,
+				3F91CA0D2793465800EC7BD1 /* Assets.xcassets */,
 				3F0A7BAA278DDAFE0021A02C /* Preview Content */,
 			);
 			path = FirstApp;
@@ -232,7 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F0A7BAC278DDAFE0021A02C /* Preview Assets.xcassets in Resources */,
-				3F0A7BA9278DDAFE0021A02C /* Assets.xcassets in Resources */,
+				3F91CA0E2793465800EC7BD1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
